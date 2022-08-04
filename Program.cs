@@ -8,7 +8,7 @@ int x2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("x2 =" +x2);
 int y2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("y2 =" +y2);
-double line = (double)Math.Sqrt(Math.Pow(x2 - x1, 2) + (Math.Pow(y2 - y1, 2) * 1.0));
+double line = (double)Math.Sqrt(Math.Pow(x2 - x1, 2) + (Math.Pow(y2 - y1, 2)));
 Console.WriteLine("Length of a Line = " + line);
 int a1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("a1 =" + a1);
@@ -18,7 +18,7 @@ int a2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("a2 =" + a2);
 int b2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("b2 =" + b2);
-double line2 = (double)Math.Sqrt(Math.Pow(a2 - a1, 2) + (Math.Pow(b2 - b1, 2) * 1.0));
+double line2 = (double)Math.Sqrt(Math.Pow(a2 - a1, 2) + (Math.Pow(b2 - b1, 2)));
 Console.WriteLine("Length of a Line2 = " + line2);
 if (line < line2)
 {
